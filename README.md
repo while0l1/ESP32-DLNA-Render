@@ -20,7 +20,7 @@
 - 分析并尽量解决上面存在的问题
 - 实现event部分的代码（如subscribe，unsubscribe）
 ## 软件说明  
-使用Arduino框架编写，在VScode+PlatformIO环境下开发。  
+在VScode+PlatformIO环境下开发，使用Arduino框架编写  
 用到的库：
-- ESP2SSDP
+- ESP32SSDP
 - ESP32-audioI2S
