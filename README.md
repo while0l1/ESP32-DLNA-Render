@@ -1,4 +1,4 @@
-# ESP32 DLNA Renderer
+# ESP32 DLNA Render
 ## 描述
 将ESP32作为一个Render，可以通过DLNA播放音乐
 ## 硬件说明
@@ -21,6 +21,8 @@
 - 网易云从后台重新调出来时，播放会出现卡顿
 - 不能调整进度
 - 不能自动播放下一首
+- 偶尔会崩掉重启
 ## TODO
 - 分析并尽量解决上面存在的问题
 - 实现event部分的代码（如subscribe，unsubscribe）
+- 优化内存使用，提高稳定性
