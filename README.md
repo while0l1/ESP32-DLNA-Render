@@ -1,9 +1,14 @@
-# ESP32 DLNA Render
+# ESP32 DLNA Renderer
 ## 描述
 将ESP32作为一个Render，可以通过DLNA播放音乐
 ## 硬件说明
 - 普通的ESP32，无PSRAM
 - PCM1502A
+## 软件说明  
+在VScode+PlatformIO环境下开发，使用Arduino框架编写  
+用到的库：
+- ESP32SSDP
+- ESP32-audioI2S(需要做部分修改)
 ## 实现的功能
 - 通过网易云投放音乐到ESP32，获取到播放链接
 - 通过网易云控制音乐播放、暂停
@@ -19,8 +24,3 @@
 ## TODO
 - 分析并尽量解决上面存在的问题
 - 实现event部分的代码（如subscribe，unsubscribe）
-## 软件说明  
-在VScode+PlatformIO环境下开发，使用Arduino框架编写  
-用到的库：
-- ESP32SSDP
-- ESP32-audioI2S
